@@ -25,11 +25,11 @@ this means, the color only changes when you do something as defined above. Also 
 ### one (so far) runtime error:
 You can ignore this if not using beta mode. If you are using ableton beta, you will see in the console that the first name change will result in a NoneType object is not callable, but that only happens the first time you name something in a newly loaded set, which I'm still trying to figure out. But this does not keep script from working. Open to any suggestions!
 
-donations welcome!  
-paypal tromboris@gmail.com  
+Donations Welcome!  
+Paypal: tromboris@gmail.com  
 or  
-ethereum address: 0x3f6af994201c17eF1E86ff057AB2a2F6CB0D1f6a
-thank you 🥰🔥✌🏻🙏🏻.
+Ethereum Address: 0x3f6af994201c17eF1E86ff057AB2a2F6CB0D1f6a
+thank you 🔥🥰✌🏻🙏🏻.
 
 Happy Music Making
 -C
