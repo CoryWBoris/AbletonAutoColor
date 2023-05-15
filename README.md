@@ -1,4 +1,7 @@
-<div style="text-align:center; border: 2px solid black; padding: 5px; transform: scale(0.6);"><img src="AbletonColorPalette.jpg" /></div>
+<div style="text-align:center; border: 2px solid black; padding: 5px;">
+  <img src="AbletonColorPalette.jpg" style="width:80%;" />
+</div>
+
 
 # AbletonAutoColor
 
