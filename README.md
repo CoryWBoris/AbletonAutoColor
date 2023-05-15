@@ -1,4 +1,4 @@
-# AbletonAutoColor<div style="text-align:center; border: 2px solid black; padding: 5px;"><img src="AbletonColorPalette.jpg" /></div>
+<div style="text-align:center; border: 2px solid black; padding: 5px;"># AbletonAutoColor<img src="AbletonColorPalette.jpg" /></div>
 
 
 # by Cory Boris  
