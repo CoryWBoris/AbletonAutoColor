@@ -18,6 +18,7 @@ def assign_track_color(track):
         color_index = track_colors[temp_name]
         track.color_index = color_index
 
+# This form (lines 22-24) is just the way we have to write control surfaces. But is this jargon worth it? I think so!
 class ColorChanger(ControlSurface):
     def __init__(self, c_instance):
         ControlSurface.__init__(self, c_instance)
