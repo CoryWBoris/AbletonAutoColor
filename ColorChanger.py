@@ -1,7 +1,7 @@
 import Live
 from ableton.v2.control_surface import ControlSurface
 
-# Dictionary of track names and their corresponding color indices, you can change these to your liking, any Ableton valid character and any number 0 - 68 inclusive
+# Dictionary of track names and their corresponding color indices
 track_colors = {
     "drums": 1,
     "bass": 2,
@@ -18,7 +18,6 @@ def assign_track_color(track):
         color_index = track_colors[temp_name]
         track.color_index = color_index
 
-# This form (lines 22-24) is just the way we have to write control surfaces. But is this jargon worth it? I think so!
 class ColorChanger(ControlSurface):
     def __init__(self, c_instance):
         ControlSurface.__init__(self, c_instance)
@@ -28,7 +27,7 @@ class ColorChanger(ControlSurface):
         self.doc.add_tracks_listener(self.track_added_listener)
 
         for track in self.doc.tracks:
-            track.add_name_listener(self.track_name_changed_listener(track))
+            track.add_name_listener(lambda: self.track_name_changed_listener(track))
 
 
     def track_added_listener(self):
@@ -41,4 +40,4 @@ class ColorChanger(ControlSurface):
 
     def track_name_changed_listener(self, track):
         """Listener function called when a track's name is changed"""
-        assign_track_color(track)
+        self.schedule_message(0, lambda: assign_track_color(track))
