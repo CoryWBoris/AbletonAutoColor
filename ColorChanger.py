@@ -1,7 +1,7 @@
 import Live
 from ableton.v2.control_surface import ControlSurface
 
-# Dictionary of track names and their corresponding color indices, you can change these to your liking, any Ableton valid character and any number 0 - 69 inclusive
+# Dictionary of track names and their corresponding color indices, you can change these to your liking, any Ableton valid character and any number 0 - 68 inclusive
 track_colors = {
     "drums": 1,
     "bass": 2,
