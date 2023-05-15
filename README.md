@@ -17,7 +17,7 @@ for Mac or Windows (not tested on Ableton linux yet)
   Go To \Users\[username]\Documents\Ableton\User Library
 2. create folder 'Remote Scripts' if not already created
 3. create a folder in 'Remote Scripts' titled ColorChanger
-4. download files to this folder
+4. download both .py files ("Colorchanger.py" AND "\_\_init__.py" to this 'Remote Scripts' folder
 5. select ColorChanger in Link|Tempo|Midi tab in Ableton, and make sure input and output are set to 'None'
 
 ### Instructions for use:
