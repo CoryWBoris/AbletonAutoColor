@@ -1,5 +1,5 @@
 <div style="text-align:center; border: 2px solid black; padding: 5px;">
-  <img src="AbletonColorPalette.jpg" style="width:25.5%;" />
+  <img src="AbletonColorPalette.jpg" style="width:24%;" />
 </div>
 
 
