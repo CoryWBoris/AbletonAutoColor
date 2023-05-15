@@ -12,7 +12,7 @@ for Mac or Windows (not tested on Ableton linux yet)
 
 ### 5 Steps to setup:
 1. Mac users:  
-  -go to /Users/{your_username}/Music/Ableton/User Library. 
+  -go to /Users/{your_username}/Music/Ableton/User Library  
   Windows users:  
   -go to \Users\[username]\Documents\Ableton\User Library
 2. create folder 'Remote Scripts' if not already created
