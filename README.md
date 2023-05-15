@@ -21,13 +21,13 @@ Rename a Midi or Audio Track and open either a new track or new device and the c
 
 The Default color choices I wrote are as follows:
 
-´track_colors = {
+`track_colors = {
     "drums": 1,
     "bass": 2,
     "guitar": 3,
     "vocals": 4,
     "synth": 5
-}´
+}`
 
 If you look at the picture at the top of this, the colors start at '0' and go to '68' from top left to right. You can add as many names and colors as you want, as long as you only use numbers 0 - 68.
 
