@@ -33,6 +33,8 @@ The Default color choices I wrote are as follows:
     "synth": 5
 }`
 
+To add to this in the code, you just have to follow the pattern of your name in quotes "name" followed by a colon and then a number. As long as the last item in this dictionary (called a dictionary in python, json object in other languages) doesn't have a comma, then it should work.  
+
 If you look at the picture at the top of this, the colors start at '0' and go to '68' from top left to right. You can add as many names and colors as you want, as long as you only use numbers 0 - 68.
 
 Only tested on Ableton 11, but should work for any Abletons if they have python3 natively and can use control surfaces
