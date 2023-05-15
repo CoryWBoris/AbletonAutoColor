@@ -22,7 +22,7 @@ Enjoy the python functionality native to Ableton Live which makes this possible!
 currently, the name change event is only registered when a new track is made or a new device is opened (i.e., max for live device, instrument, but not an audio or midi effect)
 this means, the color only changes when you do something as defined above. Also I would like down the road to have this work when you simply leave the renaming field or press the return or enter key.
 
-one (so far) runtime error:
+### one (so far) runtime error:
 You can ignore this if using beta mode. If you are using ableton beta, you will see in the console that the first name change will result in a NoneType object is not callable, but that only happens the first time you name something in a newly loaded set, which I'm still trying to figure out. But this does not keep script from working. Open to any suggestions!
 
 donations welcome!  
