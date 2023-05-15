@@ -1,3 +1,4 @@
+# Absolutely necessary for ableton to initialize the ColorChanger script
 try:
     from .ColorChanger import ColorChanger
 except ImportError as e:
