@@ -1,5 +1,5 @@
 # AbletonAutoColor
-### by Cory Boris  
+# by Cory Boris  
 ### Automatic Color Assignment Based On Name In Ableton Live
 
 for Mac or Windows (not tested on Ableton linux yet)
