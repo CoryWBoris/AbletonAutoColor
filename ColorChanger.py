@@ -1,7 +1,7 @@
 import Live
 from ableton.v2.control_surface import ControlSurface
 
-# Dictionary of track names and their corresponding color indices
+# Dictionary of track names and their corresponding color indices. You can add as many as you like here, highest number is 69, and you can use any string that you would be allowed to type in Ableton.  
 track_colors = {
     "drums": 1,
     "bass": 2,
