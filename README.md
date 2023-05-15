@@ -1,4 +1,6 @@
 # AbletonAutoColor
+## by
+## Cory Boris
 Automatic Color Assignment Based On Name In Ableton Live
 
 for Mac or Windows (not tested on Ableton linux yet)
@@ -22,7 +24,8 @@ If you are using ableton beta, you will see that the first name change will resu
 donations welcome!  
 paypal tromboris@gmail.com  
 or  
-ethereum address: 0x3f6af994201c17eF1E86ff057AB2a2F6CB0D1f6a welcome! thank you.
+ethereum address: 0x3f6af994201c17eF1E86ff057AB2a2F6CB0D1f6a
+thank you 🥰🔥✌🏻🙏🏻.
 
 Happy Music Making
 -C
