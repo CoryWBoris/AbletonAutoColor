@@ -19,6 +19,18 @@ for Mac or Windows (not tested on Ableton linux yet)
 ### Instructions for use:
 Rename a Midi or Audio Track and open either a new track or new device and the color is then changed afterwards. Also colors are applied when loading a set as well. Names are not case sensitive, but they must have the same letters in the same order.
 
+The Default color choices I wrote are as follows:
+
+track_colors = {
+    "drums": 1,
+    "bass": 2,
+    "guitar": 3,
+    "vocals": 4,
+    "synth": 5
+}
+
+If you look at the picture at the top of this, the colors start at '0' and go to '68' from top left to right. You can add as many names and colors as you want, as long as you only use numbers 0 - 68.
+
 Only tested on Ableton 11, but should work for any Abletons if they have python3 natively and can use control surfaces
 Enjoy the python functionality native to Ableton Live which makes this possible!
 
