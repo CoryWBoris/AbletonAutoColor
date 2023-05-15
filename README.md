@@ -1,4 +1,5 @@
-# AbletonAutoColor
+# AbletonAutoColor <div style="text-align:center"><img src="AbletonColorPalette.jpg" /></div>
+
 # by Cory Boris  
 ### Automatic Color Assignment Based On Midi or Audio Track Name In Ableton Live
 
