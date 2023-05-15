@@ -10,11 +10,15 @@
 
 for Mac or Windows (not tested on Ableton linux yet)
 
-### 4 Steps to setup:
-1. go to /Users/{your_username}/Music/Ableton/User Library/Remote Scripts/
-2. create folder titled ColorChanger
-3. download files to this folder
-4. select ColorChanger in Link|Tempo|Midi tab in Ableton, and make sure input and output are set to 'None'
+### 5 Steps to setup:
+1. Mac users:
+  -go to /Users/{your_username}/Music/Ableton/User Library
+  Windows users: 
+  -go to \Users\[username]\Documents\Ableton\User Library
+2. create folder 'Remote Scripts' if not already created
+3. create a folder in 'Remote Scripts' titled ColorChanger
+4. download files to this folder
+5. select ColorChanger in Link|Tempo|Midi tab in Ableton, and make sure input and output are set to 'None'
 
 ### Instructions for use:
 Rename a Midi or Audio Track and open either a new track or new device and the color is then changed afterwards. Also colors are applied when loading a set as well. Names are not case sensitive, but they must have the same letters in the same order.
