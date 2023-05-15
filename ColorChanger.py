@@ -23,20 +23,33 @@ class ColorChanger(ControlSurface):
         ControlSurface.__init__(self, c_instance)
         app = Live.Application.get_application()
         self.doc = app.get_document()
+        self.previous_track_ids = set(track._live_ptr for track in self.doc.tracks)
         # Register the listener functions
         self.doc.add_tracks_listener(self.track_added_listener)
 
         for track in self.doc.tracks:
             track.add_name_listener(lambda: self.track_name_changed_listener(track))
 
-
     def track_added_listener(self):
         """Listener function called when a new track is added"""
         self.schedule_message(0, self.handle_track_added)
 
     def handle_track_added(self):
+        current_track_ids = set(track._live_ptr for track in self.doc.tracks)
+        new_track_id = (current_track_ids - self.previous_track_ids).pop()
+        new_track = None
+
         for track in self.doc.tracks:
-            assign_track_color(track)
+            if track._live_ptr == new_track_id:
+                new_track = track
+                break
+
+        if new_track is not None:
+            assign_track_color(new_track)
+            # Attach the event listener to the new track
+            new_track.add_name_listener(lambda: self.track_name_changed_listener(new_track))
+
+        self.previous_track_ids = current_track_ids
 
     def track_name_changed_listener(self, track):
         """Listener function called when a track's name is changed"""
