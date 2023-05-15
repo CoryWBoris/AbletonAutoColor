@@ -21,7 +21,7 @@ for Mac or Windows (not tested on Ableton linux yet)
 5. select ColorChanger in Link|Tempo|Midi tab in Ableton, and make sure input and output are set to 'None'
 
 ### Instructions for use:
-Rename a Midi or Audio Track and open either a new track or new device and the color is then changed afterwards. Also colors are applied when loading a set as well. Names are not case sensitive, but they must have the same letters in the same order.
+Rename a Midi or Audio Track and then the color is changed instantaneously afterwards. Also colors are applied when loading a set as well. Names are not case sensitive, but they must have the same letters in the same order.
 
 The Default color choices I wrote are as follows:
 
@@ -37,14 +37,13 @@ To add a new color and name combo to the above structure in the code, you just h
 
 If you look at the picture at the top of this, the colors start at '0' and go to '68' from top left to right. You can add as many names and colors as you want, as long as you only use numbers 0 - 68.
 
-Only tested on Ableton 11, but should work for any Abletons if they have python3 natively and can use control surfaces
+Only tested on Ableton 11, but should work for any version of Ableton if they have python3 natively and can use control surfaces
 Enjoy the python functionality native to Ableton Live which makes this possible!
 
 
 
 ### future updates:
-currently, the name change event is only registered when a new track is made or a new device is opened (i.e., max for live device, instrument, but not an audio or midi effect)
-this means, the color only changes when you do something as defined above. Also I would like down the road to have this work when you simply leave the renaming field or press the return or enter key.
+I'd like to make a gui for choosing the colors you want automatically applied. For now with just a tiny tiny little bit of typing you can add the colors to the dictionary in this script.
 
 
 Donations Welcome!  
