@@ -8,7 +8,7 @@
 # by Cory Boris  
 ### Automatic Color Assignment Based On Midi or Audio Track Name In Ableton Live WITHOUT PLUGINS ;)
 
-for Mac or Windows (not tested on Ableton linux yet)
+\*\*for Mac or Windows (not tested on Ableton linux yet)\*\*
 
 ### 5 Steps to setup:
 1. Mac users:  
