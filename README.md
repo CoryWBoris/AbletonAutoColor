@@ -11,14 +11,14 @@
 \*\*for Mac or Windows (not tested on Ableton linux yet)\*\*
 
 ### 5 Steps to setup:
-1. Mac users:  
-  Go To /Users/{your_username}/Music/Ableton/User Library  
-  Windows users:  
-  Go To \Users\[username]\Documents\Ableton\User Library
-2. create folder 'Remote Scripts' if not already created
-3. create a folder in 'Remote Scripts' titled ColorChanger
-4. download both .py files ("Colorchanger.py" AND "\_\_init__.py" to this 'Remote Scripts' folder
-5. select ColorChanger in Link|Tempo|Midi tab in Ableton, and make sure input and output are set to 'None'
+1. Mac users:
+   Go to `/Users/{your_username}/Music/Ableton/User Library`
+   Windows users:
+   Go to `\Users\[username]\Documents\Ableton\User Library`
+2. Create a folder 'Remote Scripts' if it's not already created.
+3. Create a folder titled 'ColorChanger' inside the 'Remote Scripts' folder.
+4. Download both .py files ("Colorchanger.py" and "__init__.py") and place them in the 'Remote Scripts/ColorChanger' folder.
+5. n Ableton, select ColorChanger in the "Link|Tempo|Midi" tab, and make sure the input and output are set to 'None'.
 
 ### Instructions for use:
 Rename a Midi or Audio Track and then the color is changed instantaneously afterwards. Also colors are applied when loading a set as well. Names are not case sensitive. But, you have to use your defined spelling.
