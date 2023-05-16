@@ -26,11 +26,17 @@ Rename a Midi or Audio Track and then the color is changed instantaneously after
 The Default color choices I wrote are as follows:
 
 `track_colors = {
-    "drums": 1,
-    "bass": 2,
-    "guitar": 3,
-    "vocals": 4,
-    "synth": 5
+    "drums": 69,
+    "bass": 14,
+    "guitar": 63,
+    "vocals": 13,
+    "synth": 19,
+    "hats": 15,
+    "quarternote": 7,
+    "sixteenthnote": 17,
+    "openhat": 21,
+    "kick": 29,
+    "snare": 64
 }`
 
 To add a new color and name combo to the above structure in the code, you just have to follow the pattern of your desired track name in quotes "name" followed by a colon and then a number. As long as the last item in this dictionary (called a dictionary in python, json object in other languages) doesn't have a comma, then it should work. Note: you will have to restart ableton for any changes to be reflected in this script.   
