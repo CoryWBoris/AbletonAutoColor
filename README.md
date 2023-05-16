@@ -1,5 +1,5 @@
 <div style="text-align:center; border: 2px solid black; padding: 5px;">
-  <img src="AbletonColorPalette_Indexed.jpg" style="width:28%;" />
+  <img src="AbletonColorPalette.jpg" style="width:28%;" />
 </div>
 
 
@@ -35,7 +35,11 @@ The Default color choices I wrote are as follows:
 
 To add a new color and name combo to the above structure in the code, you just have to follow the pattern of your desired track name in quotes "name" followed by a colon and then a number. As long as the last item in this dictionary (called a dictionary in python, json object in other languages) doesn't have a comma, then it should work. Note: you will have to restart ableton for any changes to be reflected in this script.   
 
-If you look at the picture at the top of this, the colors start at '0' and go to '69' from top left to right. You can add as many names and colors as you want, as long as you only use numbers 0 - 69.
+<div style="text-align:center; border: 2px solid black; padding: 5px;">
+  <img src="AbletonColorPalette_Indexed.jpg" style="width:29%;" />
+</div>
+
+If you look at the picture above, the colors start at '0' and go to '69' from top left to right. You can add as many names and colors as you want, as long as you only use numbers 0 - 69.
 
 Only tested on Ableton 11, but should work for any version of Ableton if they have python3 natively and can use control surfaces
 Enjoy the python functionality native to Ableton Live which makes this possible!
