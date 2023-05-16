@@ -62,6 +62,6 @@ I'd like to make a GUI for choosing the colors you want to apply automatically. 
 
 Thank you! 🔥🥰✌🏻🙏🏻
 
-**Happy Music Making,**
+**Happy Music Making,**  
 -C
 
