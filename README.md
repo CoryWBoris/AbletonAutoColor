@@ -21,7 +21,7 @@
 5. select ColorChanger in Link|Tempo|Midi tab in Ableton, and make sure input and output are set to 'None'
 
 ### Instructions for use:
-Rename a Midi or Audio Track and then the color is changed instantaneously afterwards. Also colors are applied when loading a set as well. Names are not case sensitive, but they must have the same letters in the same order.
+Rename a Midi or Audio Track and then the color is changed instantaneously afterwards. Also colors are applied when loading a set as well. Names are not case sensitive. But, you have to use your defined spelling.
 
 The Default color choices I wrote are as follows:
 
