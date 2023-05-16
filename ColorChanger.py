@@ -1,13 +1,19 @@
 import Live
 from ableton.v2.control_surface import ControlSurface
 
-# Dictionary of track names and their corresponding color indices. You can add as many as you like here, highest number is 69, and you can use any string that you would be allowed to type in Ableton.  
+# Dictionary of track names and their corresponding color indices
 track_colors = {
-    "drums": 1,
-    "bass": 2,
-    "guitar": 3,
-    "vocals": 4,
-    "synth": 5
+    "drums": 69,
+    "bass": 14,
+    "guitar": 63,
+    "vocals": 13,
+    "synth": 19,
+    "hats": 15,
+    "quarternote": 7,
+    "sixteenthnote": 17,
+    "openhat": 21,
+    "kick": 29,
+    "snare": 64
 }
 
 def assign_track_color(track):
@@ -24,6 +30,8 @@ class ColorChanger(ControlSurface):
         app = Live.Application.get_application()
         self.doc = app.get_document()
         self.previous_track_ids = set(track._live_ptr for track in self.doc.tracks)
+        # Assign colors to existing tracks on initialization
+        self.assign_colors_to_existing_tracks()
         # Register the listener functions
         self.doc.add_tracks_listener(self.tracks_changed_listener)
 
@@ -52,6 +60,11 @@ class ColorChanger(ControlSurface):
                 new_track.add_name_listener(lambda: self.track_name_changed_listener(new_track))
 
         self.previous_track_ids = current_track_ids
+
+    def assign_colors_to_existing_tracks(self):
+        """Assigns colors to existing tracks based on their names"""
+        for track in self.doc.tracks:
+            assign_track_color(track)
 
     def track_name_changed_listener(self, track):
         """Listener function called when a track's name is changed"""
