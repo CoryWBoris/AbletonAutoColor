@@ -52,6 +52,7 @@ I'd like to make a GUI for choosing the colors you want to apply automatically. 
 
 **Donations Welcome!**
 - Paypal: tromboris@gmail.com
+- Venmo: @Cory-Boris
 - Ethereum Address: 0x3f6af994201c17eF1E86ff057AB2a2F6CB0D1f6a
 
 Thank you! 🔥🥰✌🏻🙏🏻
