@@ -52,7 +52,7 @@ Only tested and working on Ableton 11, but this could work for older versions if
 
 **Future Updates:**
 
-I'd like to make a GUI for choosing the colors you want to apply automatically. For now, with just a tiny bit of typing, you can add the colors to the dictionary in this script.
+I'd like to make a graphical interface for choosing the colors you want to apply automatically. For now, with just a tiny bit of typing, you can add the colors to the dictionary in this script.
 
 **Donations Welcome!**
 - Paypal: tromboris@gmail.com
