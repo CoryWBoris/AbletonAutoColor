@@ -2,6 +2,17 @@
   <img src="AbletonColorPalette_Crop2.jpg" style="width:28%;" />
 </div>
 
+<style>
+  @media (max-width: 480px) { /* Adjust the breakpoint as needed */
+    div {
+      width: 100%;
+    }
+    img {
+      width: 100%;
+    }
+  }
+</style>
+
 
 # AbletonAutoColor
 
