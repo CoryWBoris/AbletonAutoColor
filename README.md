@@ -18,7 +18,7 @@
 2. Create a folder 'Remote Scripts' if it's not already created.
 3. Create a folder titled 'ColorChanger' inside the 'Remote Scripts' folder.
 4. Download both .py files ("Colorchanger.py" and "\_\_init\_\_.py") and place them in the 'Remote Scripts/ColorChanger' folder.
-5. n Ableton, select ColorChanger in the "Link|Tempo|Midi" tab, and make sure the input and output are set to 'None'.
+5. In Ableton, select ColorChanger in the "Link|Tempo|Midi" tab, and make sure the input and output are set to 'None'.
 
 ### Instructions for use:
 Rename a Midi or Audio Track and then the color is changed instantaneously afterwards. Also colors are applied when loading a set as well. Names are not case sensitive. But, you have to use your defined spelling.
