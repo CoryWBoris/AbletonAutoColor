@@ -11,9 +11,9 @@
 \*\*for Mac or Windows (not tested on Ableton linux yet)\*\*
 
 ### 5 Steps to setup:
-1. Mac users:
-   Go to `/Users/{your_username}/Music/Ableton/User Library`
-   Windows users:
+1. Mac users:  
+   Go to `/Users/{your_username}/Music/Ableton/User Library`  
+   Windows users:  
    Go to `\Users\[username]\Documents\Ableton\User Library`
 2. Create a folder 'Remote Scripts' if it's not already created.
 3. Create a folder titled 'ColorChanger' inside the 'Remote Scripts' folder.
