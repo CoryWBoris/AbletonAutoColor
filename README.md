@@ -46,15 +46,16 @@ Enjoy the python functionality native to Ableton Live which makes this possible!
 
 
 
-### future updates:
-I'd like to make a gui for choosing the colors you want automatically applied. For now with just a tiny tiny little bit of typing you can add the colors to the dictionary in this script.
+**Future Updates:**
 
+I'd like to make a GUI for choosing the colors you want to apply automatically. For now, with just a tiny bit of typing, you can add the colors to the dictionary in this script.
 
-Donations Welcome!  
-Paypal: tromboris@gmail.com  
-or  
-Ethereum Address: 0x3f6af994201c17eF1E86ff057AB2a2F6CB0D1f6a
-thank you 🔥🥰✌🏻🙏🏻.
+**Donations Welcome!**
+- Paypal: tromboris@gmail.com
+- Ethereum Address: 0x3f6af994201c17eF1E86ff057AB2a2F6CB0D1f6a
 
-Happy Music Making  
+Thank you! 🔥🥰✌🏻🙏🏻
+
+**Happy Music Making,**
 -C
+
