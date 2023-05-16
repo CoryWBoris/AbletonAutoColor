@@ -1,9 +1,5 @@
 <div style="text-align:center; border: 2px solid black; padding: 5px;">
-  <img src="AbletonColorPalette_Crop2.jpg" style="width:28%;" />
-</div>
-
-<div class="text-center" style="border: 2px solid black; padding: 5px;">
-  <img src="AbletonColorPalette_Crop2.jpg" class="img-fluid" alt="Your image" />
+  <img src="AbletonColorPalette_Crop2.jpg" style="width:35%;" />
 </div>
 
 # AbletonAutoColor
