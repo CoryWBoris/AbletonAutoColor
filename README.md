@@ -6,7 +6,7 @@
 # AbletonAutoColor
 
 # by Cory Boris  
-### Automatic Color Assignment Based On Midi or Audio Track Name In Ableton Live
+### Automatic Color Assignment Based On Midi or Audio Track Name In Ableton Live WITHOUT PLUGINS ;)
 
 for Mac or Windows (not tested on Ableton linux yet)
 
