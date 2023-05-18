@@ -54,6 +54,8 @@ Only tested and working on Ableton 11, but this could work for older versions if
 
 I'd like to make a graphical interface for choosing the colors you want to apply automatically. For now, with just a tiny bit of typing, you can add the colors to the dictionary in this script.
 
+Also the script currently does not change clip colors belonging to tracks which exist prior to the name change. I will hopefully add this feature as well.
+
 **Donations Welcome!**
 - Paypal: tromboris@gmail.com
 - Venmo: @Cory-Boris
