@@ -1,5 +1,6 @@
 import Live
 from ableton.v2.control_surface import ControlSurface
+from functools import partial
 
 # Dictionary of track names and their corresponding color indices
 track_colors = {
@@ -24,19 +25,36 @@ def assign_track_color(track):
         color_index = track_colors[temp_name]
         track.color_index = color_index
 
+def get_all_tracks(doc):
+    all_tracks = []
+    for track in doc.tracks:
+        all_tracks.append(track)
+        if hasattr(track, 'is_foldable') and track.is_foldable:
+            all_tracks.extend(get_nested_tracks(track))
+    return all_tracks
+
+def get_nested_tracks(group_track):
+    nested_tracks = []
+    for track in group_track.canonical_parent.tracks:
+        if hasattr(track, 'is_grouped') and track.is_grouped and track.group_track == group_track:
+            nested_tracks.append(track)
+            if hasattr(track, 'is_foldable') and track.is_foldable:
+                nested_tracks.extend(get_nested_tracks(track))
+    return nested_tracks
+
 class ColorChanger(ControlSurface):
     def __init__(self, c_instance):
         ControlSurface.__init__(self, c_instance)
         app = Live.Application.get_application()
         self.doc = app.get_document()
-        self.previous_track_ids = set(track._live_ptr for track in self.doc.tracks)
+        self.previous_track_ids = set(track._live_ptr for track in get_all_tracks(self.doc))
         # Assign colors to existing tracks on initialization
         self.assign_colors_to_existing_tracks()
         # Register the listener functions
         self.doc.add_tracks_listener(self.tracks_changed_listener)
 
-        for track in self.doc.tracks:
-            track.add_name_listener(lambda: self.track_name_changed_listener(track))
+        for track in get_all_tracks(self.doc):
+            track.add_name_listener(partial(self.track_name_changed_listener, track))
 
     def tracks_changed_listener(self):
         """Listener function called when a track is added or deleted"""
