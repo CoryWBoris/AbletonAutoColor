@@ -56,7 +56,7 @@ I'd like to make a graphical interface for choosing the colors you want to apply
 
 Also the script currently does not change clip colors belonging to tracks which exist prior to the name change. I will hopefully add this feature as well.
 
-**Donations Welcome!**
+**Coffees Welcome!**
 - Paypal: tromboris@gmail.com
 - Venmo: @Cory-Boris
 - Ethereum Address: `0x3f6af994201c17eF1E86ff057AB2a2F6CB0D1f6a`
