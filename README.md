@@ -2,6 +2,7 @@
   <img src="AbletonColorPalette_Crop2.jpg" style="width:35%;" />
 </div>
 
+![Stability Badge]https://img.shields.io/badge/-stable-blue
 # AbletonAutoColor
 
 # by Cory Boris  
