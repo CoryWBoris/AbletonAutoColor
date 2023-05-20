@@ -5,7 +5,8 @@
 
 # AbletonAutoColor ![Stability Badge](https://img.shields.io/badge/-stable-blue)
 
-# by Cory Boris  
+<h3>by Cory Boris</h3>
+
 ## Automatic Color Assignment Based On Midi or Audio Track Name In Ableton Live WITHOUT PLUGINS ;)
 
 \*\*for Mac or Windows (not tested on Ableton linux yet)\*\*
