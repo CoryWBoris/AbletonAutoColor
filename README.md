@@ -2,8 +2,9 @@
   <img src="AbletonColorPalette_Crop2.jpg" style="width:35%;" />
 </div>
 
-![Stability Badge](https://img.shields.io/badge/-stable-blue)
+
 # AbletonAutoColor
+![Stability Badge](https://img.shields.io/badge/-stable-blue)
 
 # by Cory Boris  
 ## Automatic Color Assignment Based On Midi or Audio Track Name In Ableton Live WITHOUT PLUGINS ;)
