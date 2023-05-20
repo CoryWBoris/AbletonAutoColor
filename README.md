@@ -4,7 +4,7 @@
 
 
 
-<h3> AbletonAutoColor <!-- --> ![Stability Badge](https://img.shields.io/badge/-stable-blue) </h3>
+<h1> AbletonAutoColor <!-- --> ![Stability Badge](https://img.shields.io/badge/-stable-blue) </h1>
 # By: Cory Boris 
 
 
