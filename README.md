@@ -3,7 +3,7 @@
 </div>
 
 
-# AbletonAutoColor ![Stability Badge](https://img.shields.io/badge/-stable-blue)  
+<h1> AbletonAutoColor ![Stability Badge](https://img.shields.io/badge/-stable-blue) <h1>
 # by Cory Boris
 
 ## Automatic Color Assignment Based On Midi or Audio Track Name In Ableton Live WITHOUT PLUGINS ;)
