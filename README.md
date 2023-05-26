@@ -26,7 +26,7 @@ By: Cory Boris
 **Note**: You can add the downloadable files from here to their respective folders as shown by my tutorial while Ableton is open or quit, but if Ableton is open, then you *will* have to restart Ableton for the selected control surface to go into effect.
 
 ### Instructions for use:
-Rename a Midi or Audio Track and then the color is changed instantaneously afterwards. Also colors are applied when loading a set as well. Names are not case sensitive. But, you have to use your defined spelling.
+Rename a Midi or Audio Track and then the color is changed nigh instantaneously afterwards. Also colors are applied when loading a set as well. Names are not case sensitive. But, you have to use your defined spelling.
 
 The Default color choices I wrote are as follows:
 
