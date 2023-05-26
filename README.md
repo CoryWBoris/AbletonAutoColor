@@ -26,7 +26,7 @@ By: Cory Boris
 **Note**: You can add the downloadable files from here to their respective folders as shown by my tutorial while Ableton is open or quit, but if Ableton is open, then you *will* have to restart Ableton for the selected control surface to go into effect.
 
 ### Instructions for use:
-Rename a Midi or Audio Track and then the color is instantaneously changed afterwards. Also colors are applied when loading a set as well. Names are not case sensitive. But, you have to use your defined spelling. I will soon post a version on gumroad which will contain an interactable gui (fancy way of saying you can pick colors from a window).
+Rename a Midi or Audio Track and then the color is instantaneously changed afterwards. Also colors are applied when loading a set as well. Names are not case sensitive. But, you have to use your defined spelling.
 
 The Default color choices I wrote are as follows:
 
@@ -54,13 +54,15 @@ If you look at the picture above, the colors start at '0' and go to '69' from to
 
 Only tested and working on Ableton 11, but this could work for older versions if the python script were backwards compatible for python 2.
 
+**Past Fixes:**
+I fixed the inability to change colors of previously named tracks on load. It now does that, yeah.
 
+I fixed the inability to change all variations of nested group tracks. It also that does.
 
 **Future Updates:**
 
-I'd like to make a graphical interface for choosing the colors you want to apply automatically. For now, with just a tiny bit of typing, you can add the colors to the dictionary in this script.
+I will soon post a version on gumroad which will contain an interactable gui (fancy way of saying you can pick colors from a window). For now, with just a tiny bit of typing, you can add the colors to the dictionary in this script.
 
-Also the script currently does not change clip colors belonging to tracks which exist prior to the name change. I will hopefully add this feature as well.
 
 **Coffees Welcome!**
 - Paypal: tromboris@gmail.com
