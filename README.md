@@ -22,6 +22,7 @@ By: Cory Boris
 3. Create a folder titled 'ColorChanger' inside the 'Remote Scripts' folder.
 4. Download both .py files ("Colorchanger.py" and "\_\_init\_\_.py") and place them in the 'Remote Scripts/ColorChanger' folder.
 5. In Ableton, select ColorChanger in the "Link|Tempo|Midi" tab, and make sure the input and output are set to 'None'.  
+
 **Note**: You can add the downloadable files from here to their respective folders as shown by my tutorial while Ableton is open or quit, but if Ableton is open, then you *will* have to restart Ableton for the selected control surface to go into effect.
 
 ### Instructions for use:
