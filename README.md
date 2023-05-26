@@ -63,7 +63,7 @@ I fixed the inability to change all variations of nested group tracks. It also t
 
 **Future Updates:**
 
-I will soon post a version on gumroad which will contain an interactable gui (fancy way of saying you can pick colors from a window). For now, with just a tiny bit of typing, you can add the colors to the dictionary in this script.
+I will soon post a version on gumroad which will contain an interactable gui (non-coders: fancy way of saying you can pick colors from a window). For now, with just a tiny bit of typing, you can add the colors to the dictionary in this script.
 
 
 **Coffees Welcome!**
