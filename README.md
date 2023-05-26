@@ -55,6 +55,7 @@ If you look at the picture above, the colors start at '0' and go to '69' from to
 Only tested and working on Ableton 11, but this could work for older versions if the python script were backwards compatible for python 2.
 
 **Past Fixes:**
+
 I fixed the inability to change colors of previously named tracks on load. It now does that, yeah.
 
 I fixed the inability to change all variations of nested group tracks. It also that does.
