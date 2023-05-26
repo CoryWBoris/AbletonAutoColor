@@ -44,7 +44,8 @@ The Default color choices I wrote are as follows:
     "snare": 64
 }`
 
-To add a new color and name combo to the above structure in the code, you just have to follow the pattern of your desired track name in quotes "name" followed by a colon and then a number. As long as the last item in this dictionary (called a dictionary in python, json object in other languages) doesn't have a comma, then it should work. Note: you will have to restart ableton for any changes to be reflected in this script.   
+To add a new color and name combo to the above structure in the code, you just have to follow the pattern of your desired track name in quotes "name" followed by a colon and then a number. As long as the last item in this dictionary (called a dictionary in python, json object in other languages) doesn't have a comma, then it should work. 
+**Repeat of Note:** you will have to restart Ableton whenever you make changes to the files downloaded here, such as intalling or updating.   
 
 <div style="text-align:center; border: 2px solid black; padding: 5px;">
   <img src="AbletonColorPalette_Indexed.jpg" style="width:29%;" />
