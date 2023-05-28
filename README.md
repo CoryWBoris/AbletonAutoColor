@@ -23,7 +23,7 @@ By: Cory Boris
 4. Download **both** .py files, "Colorchanger.py" and "\_\_init\_\_.py", and place them in the 'Remote Scripts/ColorChanger' folder.
 5. In Ableton, select ColorChanger in the "Link|Tempo|Midi" tab, and make sure the input and output are set to 'None'.  
 
-**Note**: You can add the downloadable files from here to their respective folders as shown by my tutorial while Ableton is open or quit, but if Ableton is open, then you *will* have to restart Ableton for the selected control surface to go into effect.
+**Note**: You can add the downloadable files from here to their respective folders as shown by my tutorial while Ableton is open or quit, but if Ableton is open, then you *will* have to restart Ableton for the selected control surface to go into effect. This is something that you won't have to deal with when I release the full version with a gui, which is finished at this point in time, just waiting to release it.
 
 ### Instructions for use:
 Rename a Midi or Audio Track and then the color is instantaneously changed afterwards. Also colors are applied when loading a set as well. Names are not case sensitive. But, you have to use your defined spelling.
@@ -45,7 +45,7 @@ The Default color choices I wrote are as follows:
 }`
 
 To add a new color and name combo to the above structure in the code, you just have to follow the pattern of your desired track name in quotes "name" followed by a colon and then a number. As long as the last item in this dictionary (called a dictionary in python, json object in other languages) doesn't have a comma, then it should work.  
-**Repeat of Note:** you will have to restart Ableton whenever you make changes to the files downloaded here, such as intalling or updating.   
+**Repeat of Note:** you will have to restart Ableton whenever you make changes to the files downloaded here, such as intalling or updating. But with the new gui version, it will be possible to change a layout while ableton is open.
 
 <div style="text-align:center; border: 2px solid black; padding: 5px;">
   <img src="AbletonColorPalette_Indexed.jpg" style="width:29%;" />
