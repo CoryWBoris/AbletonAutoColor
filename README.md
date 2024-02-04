@@ -63,7 +63,9 @@ I fixed the inability to change all variations of nested group tracks. It also t
 
 **Future Updates:**
 
-I will soon post a version on gumroad which will contain an interactable gui (non-coders: fancy way of saying you can pick colors from a window). For now, with just a tiny bit of typing, you can add the colors to the dictionary in this script.
+I have officially released <a href="https://coryboris.gumroad.com/l/TrueAutoColor">TrueAutoColor</a>, hosted by gumroad.com. I highly encourage you to try it out! I think you will like the clips coloring automatically as well as the ability to create custom color layouts from the ableton color palette.
+
+But by all means keep enjoying this free version!
 
 
 **Coffees Welcome!**
