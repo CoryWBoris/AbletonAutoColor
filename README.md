@@ -66,6 +66,7 @@ I fixed the inability to change all variations of nested group tracks. It also t
 I have officially released <a href="https://coryboris.gumroad.com/l/TrueAutoColor">TrueAutoColor</a>, hosted by gumroad.com. I highly encourage you to try it out! I think you will like the clips coloring automatically; the ability to create custom color layouts from the ableton color palette;  as well as the ability to load a layout without restarting ableton.
 
 But by all means keep enjoying this free version!
+However, if you purchase the full version, make sure to deselect the Control Surface named ColorChanger in Ableton's preferences before selecting the new version, named TrueAutoColor, as the free version and pro version can't run at the same time.
 
 
 **Coffees Welcome!**
