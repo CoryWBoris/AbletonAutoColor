@@ -9,7 +9,7 @@
 By: Cory Boris  
 © 2023 MIT License
 
-## Automatic Color Assignment Based On Midi or Audio Track Name In Ableton Live WITHOUT PLUGINS ;)
+## Automatic Color Assignment Based On Midi or Audio Track Name In Ableton Live 11+ WITHOUT PLUGINS ;)
 
 \*\*for Mac or Windows\*\*
 
@@ -63,7 +63,12 @@ I fixed the inability to change all variations of nested group tracks. It also t
 
 **Future Updates:**
 
-I have officially released <a href="https://coryboris.gumroad.com/l/TrueAutoColor">TrueAutoColor</a>, hosted by gumroad.com. I highly encourage you to try it out! I think you will like the clips coloring automatically; the ability to create custom color layouts from the ableton color palette with a **beautifully designed user interface**;  as well as the ability to load a layout without restarting ableton.
+I have officially released <a href="https://coryboris.gumroad.com/l/TrueAutoColor">TrueAutoColor</a>, hosted by gumroad.com - check it out why don't ya. I think you will like the additional features it brings:
+-clips coloring automatically based on track color
+-custom layout creating software with a simple and easy to use interface accurate to the colors of Ableton Live ~bijection color selection~
+-light cpu usage and, like AbletonAutoColor, **doesn't need to run in the background to change track and clip colors**
+-as well as the ability to load a layout without restarting ableton
+...and more
 
 But by all means keep enjoying this free version!
 However, if you purchase the full version, make sure to deselect the Control Surface named ColorChanger in Ableton's preferences before selecting the new version, named TrueAutoColor, as the free version and pro version can't run at the same time.
