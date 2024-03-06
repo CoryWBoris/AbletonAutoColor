@@ -7,7 +7,7 @@
 # AbletonAutoColor
 ![Stability Badge](https://img.shields.io/badge/-stable-blue)  
 By: Cory Boris  
-© 2023 MIT License
+© 2023, 2024 MIT License
 
 ## Automatic Color Assignment Based On Midi or Audio Track Name In Ableton Live 11+ WITHOUT PLUGINS ;)
 
