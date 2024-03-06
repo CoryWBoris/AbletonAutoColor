@@ -19,10 +19,11 @@ track_colors = {
 
 def assign_track_color(track):
     """Assigns a color to a track based on its name"""
-    track_name = track.name
-    temp_name = track_name.lower()
-    if temp_name in track_colors:
-        color_index = track_colors[temp_name]
+    track_name = track.name.lower()
+    # Convert the keys in track_colors to lowercase
+    lower_case_track_colors = {k.lower(): v for k, v in track_colors.items()}
+    if track_name in lower_case_track_colors:
+        color_index = lower_case_track_colors[track_name]
         track.color_index = color_index
 
 def get_all_tracks(doc):
