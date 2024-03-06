@@ -63,13 +63,13 @@ I fixed the inability to change all variations of nested group tracks. It also t
 
 **Future Updates:**
 
-I have officially released <a href="https://coryboris.gumroad.com/l/TrueAutoColor">TrueAutoColor</a>, hosted by gumroad.com - check it out why don't ya. I think you will like the additional features it brings:
--clips coloring automatically based on track color
--custom layout creating software with a simple and easy to use interface accurate to the colors of Ableton Live. In other words, bijection color selection!
--light cpu usage and, like AbletonAutoColor, **doesn't need to run in the background to change track and clip colors**
--as well as the ability to load a layout without restarting ableton
-...and more
-
+I have officially released <a href="https://coryboris.gumroad.com/l/TrueAutoColor">TrueAutoColor</a>, hosted by gumroad.com - check it out why don't ya. I think you will like the additional features it brings:  
+-clips coloring automatically based on track color  
+-custom layout creating software with a simple and easy to use interface accurate to the colors of Ableton Live. In other words, bijection color selection!  
+-light cpu usage and, like AbletonAutoColor, **doesn't need to run in the background to change track and clip colors**  
+-as well as the ability to load a layout without restarting ableton  
+...and more  
+  
 But by all means keep enjoying this free version!
 However, if you purchase the full version, make sure to deselect the Control Surface named ColorChanger in Ableton's preferences before selecting the new version, named TrueAutoColor, as the free version and pro version can't run at the same time.
 
