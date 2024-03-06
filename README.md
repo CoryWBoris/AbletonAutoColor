@@ -13,7 +13,7 @@ By: Cory Boris
 
 \*\*for Mac or Windows\*\*
 
-### 5 Steps to setup:
+### 5 Steps to setup. -note-, this assumes you are using the default user library folder. If you have moved this folder externally or otherwise, make a Remote Scripts folder inside of whatever user library folder you have pointed Ableton to, and start from step 2:
 1. Mac users:  
    Go to `/Users/{your_username}/Music/Ableton/User Library`  
    Windows users:  
@@ -21,7 +21,7 @@ By: Cory Boris
 2. Create a folder 'Remote Scripts' if it's not already created.
 3. Create a folder titled 'ColorChanger' inside the 'Remote Scripts' folder.
 4. Download **both** .py files, "Colorchanger.py" and "\_\_init\_\_.py", and place them in the 'Remote Scripts/ColorChanger' folder.
-5. In Ableton, select ColorChanger in the "Link|Tempo|Midi" tab, and make sure the input and output are set to 'None'.  
+5. In Ableton, select ColorChanger in the "Link|Tempo|Midi" tab, and make sure the input and output are set to 'None'. 
 
 **Note**: You can add the downloadable files from here to their respective folders as shown by my tutorial while Ableton is open or quit, but if Ableton is open, then you *will* have to restart Ableton for the selected control surface to go into effect. This is something that you won't have to deal with when I release the full version with a gui, which is finished at this point in time, just waiting to release it.
 
@@ -63,7 +63,8 @@ I fixed the inability to change all variations of nested group tracks. It also t
 
 **Future Updates:**
 
-I have officially released <a href="https://coryboris.gumroad.com/l/TrueAutoColor">TrueAutoColor</a>, hosted by gumroad.com - check it out why don't ya. I think you will like the additional features it brings:  
+I have officially released <a href="https://coryboris.gumroad.com/l/TrueAutoColor">TrueAutoColor</a>, hosted by gumroad.com - check it out!  
+I think you will like the additional features it brings, such as:  
 -clips coloring automatically based on track color  
 -custom layout creating software with a simple and easy to use interface accurate to the colors of Ableton Live. In other words, bijection color selection!  
 -light cpu usage and, like AbletonAutoColor, **doesn't need to run in the background to change track and clip colors**  
