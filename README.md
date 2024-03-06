@@ -53,7 +53,7 @@ To add a new color and name combo to the above structure in the code, you just h
 
 If you look at the picture above, the colors start at '0' and go to '69' from top left to right. You can add as many names and colors as you want, as long as you only use numbers 0 - 69.
 
-Only tested and working on Ableton 11, but this could work for older versions if the python script were backwards compatible for python 2.
+Tested and working on Ableton 11+, but this could work for older versions if the python script were written to be backwards compatible for python 2.
 
 **Past Fixes:**
 
