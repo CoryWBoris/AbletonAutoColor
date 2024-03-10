@@ -75,7 +75,7 @@ I think you will like the additional features it brings, such as:
 ...and more  
   
 But by all means keep enjoying this free version!
-However, if you purchase the full version, make sure to deselect the Control Surface named ColorChanger in Ableton's preferences before selecting the new version, named TrueAutoColor, as the free version and pro version can't run at the same time.
+However, if you purchase the full version, make sure to deselect the Control Surface named ColorChanger in Ableton's preferences before selecting the new version, named TrueAutoColor, as the free version and full version can't run at the same time.
 
 
 **Coffees Welcome!**
