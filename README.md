@@ -21,11 +21,11 @@ By: Cory Boris
 2. Create a folder 'Remote Scripts' if it's not already created.
 3. Create a folder titled 'ColorChanger' inside the 'Remote Scripts' folder.
 4. Download **both** .py files, "Colorchanger.py" and "\_\_init\_\_.py", and place them in the 'Remote Scripts/ColorChanger' folder.
-5. In Ableton, select ColorChanger in the "Link|Tempo|Midi" tab, and make sure the input and output are set to 'None'. 
+5. In Ableton, select ColorChanger in the "Link|Tempo|Midi" tab, and make sure the input and output are set to 'None'.
 
-**Note**: You can add the downloadable files from here to their respective folders as shown by my tutorial while Ableton is open or quit, but if Ableton is open, then you *will* have to restart Ableton for the selected control surface to go into effect. This is something that you won't have to deal with when I release the full version with a gui, which is finished at this point in time, just waiting to release it.
+**Note**: You can add the 2 mentioned files from here to their respective folders as shown by my tutorial while Ableton is open or quit, but if Ableton is open, then you *will* have to restart Ableton for the selected control surface to go into effect. The reason being is that Ableton compiles python and loads python code into memory when Ableton starts, but not after it loads up. This means for you using the software that in order to change a color layout and have the changes go into effect, you will have the restart Ableton. While I can't change the nature of how Ableton loads control surfaces, I circumvented this inconvenience with the full version of this program called 'TrueAutoColor'. The release details are at the bottom but with the full version you can change the layout without restarting Ableton.
 
-### Instructions for use:
+## Instructions for use:
 Rename a Midi or Audio Track and then the color is instantaneously changed afterwards. Also colors are applied when loading a set as well. Names are not case sensitive. But, you have to use your defined spelling.
 
 The Default color choices I wrote are as follows:
@@ -44,9 +44,10 @@ The Default color choices I wrote are as follows:
     "snare": 64
 }`
 
-To add a new color and name combo to the above structure in the code, you just have to follow the pattern of your desired track name in quotes "name" followed by a colon and then a number. As long as the last item in this dictionary (called a dictionary in python, json object in other languages) doesn't have a comma, then it should work.  
-**Repeat of Note:** you will have to restart Ableton whenever you make changes to the files downloaded here, such as intalling or updating. But with the new gui version, it will be possible to change a layout while ableton is open.
+To add a new color and name combo to the above structure in the code, just locate the above dictionary in my script, and you simply have to follow the pattern of your desired track name in quotes "name" followed by a colon and then a number. As long as the last item in this dictionary (called a dictionary in python, json object in other languages) doesn't have a comma, then it should work. You can have different strings assigned to the same color, and as many as you want, as long as the format is: one string in quotes, colon, number, comma.  
+**Repeat of Note:** Just a reminder, you will have to restart Ableton whenever you make changes to the files downloaded here, such as intalling or updating. But with the new gui version, it will be possible to change a layout while ableton is open.
 
+### Ableton Color Palette
 <div style="text-align:center; border: 2px solid black; padding: 5px;">
   <img src="AbletonColorPalette_Indexed.jpg" style="width:29%;" />
 </div>
@@ -60,6 +61,8 @@ Tested and working on Ableton 11+, but this could work for older versions if the
 I fixed the inability to change colors of previously named tracks on load. It now does that, yeah.
 
 I fixed the inability to change all variations of nested group tracks. It also that does.
+
+Also I fixed the code preventing a user from entering a string into the dictionary containing caps without it breaking the name recognition. By default the code is not sensitive to caps. I think this makes sense because I genuinely believe the last thing someone should be concerned with when naming a track is a capital letter making the diference between a color change. That feeling at first glance feels like it wouldn't be conducive to the in the moment flow necessary when creating art.
 
 **Future Updates:**
 
