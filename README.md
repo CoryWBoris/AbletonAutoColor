@@ -67,11 +67,12 @@ Also I fixed the code preventing a user from entering a string into the dictiona
 
 **Future Updates:**
 
-I have officially released <a href="https://coryboris.gumroad.com/l/TrueAutoColor">TrueAutoColor</a>, hosted by gumroad.com - check it out!  
+I have officially released <a href="https://coryboris.gumroad.com/l/TrueAutoColor">TrueAutoColor</a> for both Mac AND Windows, hosted by gumroad.com - check it out!  
 I think you will like the additional features it brings, such as:  
 -clips coloring automatically based on track color  
 -custom layout creating software with a simple and easy to use interface accurate to the colors of Ableton Live. In other words, bijection color selection!  
 -light cpu usage and, like AbletonAutoColor, **doesn't need to run in the background to change track and clip colors**  
+-a NEW 'Contains Mode' which allows you to use a keyword rather than an explicit name to change track and clip colors
 -as well as the ability to load a layout without restarting ableton  
 ...and more  
   
