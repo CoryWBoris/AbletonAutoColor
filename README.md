@@ -72,7 +72,8 @@ I think you will like the additional features it brings, such as:
 -clips coloring automatically based on track color  
 -custom layout creating software with a simple and easy to use interface accurate to the colors of Ableton Live. In other words, bijection color selection!  
 -light cpu usage and, like AbletonAutoColor, **doesn't need to run in the background to change track and clip colors**  
--a NEW 'Contains Mode' which allows you to use a keyword rather than an explicit name to change track and clip colors
+-a NEW 'Contains Mode' which allows you to use a keyword rather than an explicit name to change track and clip colors  
+-unlimited rows for unlimited keywords (a lot easier than typing into a dictionary within a python script)  
 -as well as the ability to load a layout without restarting ableton  
 ...and more  
   
