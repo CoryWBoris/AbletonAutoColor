@@ -86,6 +86,7 @@ However, if you purchase the full version, make sure to deselect the Control Sur
 - Venmo: @Cory-Boris
 - Ethereum Address: `0x3f6af994201c17eF1E86ff057AB2a2F6CB0D1f6a`
 
+And if this script means something to your workflow, consider showing your love with a star :) ⭐️
 Thank you! 🔥🥰✌🏻🙏🏻
 
 **Happy Music Making,**  
