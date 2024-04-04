@@ -82,7 +82,8 @@ However, if you purchase the full version, make sure to deselect the Control Sur
 
 
 **Coffees Welcome!**
-- Paypal: tromboris@gmail.com
+- [![GitHub Sponsors](https://img.shields.io/badge/Sponsor-%E2%9D%A4-red)](https://github.com/sponsors/CoryWBoris)
+- [![PayPal](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/coryboris)
 - Venmo: @Cory-Boris
 - Ethereum Address: `0x3f6af994201c17eF1E86ff057AB2a2F6CB0D1f6a`
 
